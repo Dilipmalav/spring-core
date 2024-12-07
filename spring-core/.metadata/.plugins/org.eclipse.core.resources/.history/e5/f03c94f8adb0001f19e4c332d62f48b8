@@ -1,0 +1,15 @@
+package com.rays.exclude;
+
+public class TestAutowire {
+
+	
+	private UserService userService;
+
+
+	private AnotherService anotherService;
+
+	public void performOperations() {
+		userService.greet();
+		anotherService.doSomething();
+	}
+}

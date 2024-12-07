@@ -1,0 +1,9 @@
+package com.rays.autowire.notype;
+
+public class UserDao {
+
+	public void add() {
+		
+	}
+
+}
