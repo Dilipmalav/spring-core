@@ -1,0 +1,16 @@
+package com.rays.dao;
+
+
+@Entity
+@Table(name = "USER")
+public class UserDTO {
+
+	@id
+	@GenretedValue(generator = "ncsPk")
+	@GenericGenerator(name = "ncsPk", strategy = "native")
+	@Column(name = "ID", unique = true, nullable = false)
+	
+	protected long id = 0;
+	
+	
+}

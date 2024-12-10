@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Rays Software\WorkSpace\Spring-core\spring-core\src\main\java\com\rays\instance\ServiceLocator.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,7 +49,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="spring-core"/>
+			<item value="spring-dao-aop"/>
+			<item value="spring-dao-hibernate"/>
+			<item value="spring-dao-jdbc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

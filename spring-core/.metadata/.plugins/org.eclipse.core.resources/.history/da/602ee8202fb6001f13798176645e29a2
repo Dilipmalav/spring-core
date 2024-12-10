@@ -1,0 +1,9 @@
+package com.rays.dao;
+
+
+@Entity
+@Table(name = "USER")
+public class UserDTO {
+
+	
+}
